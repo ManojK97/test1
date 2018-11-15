@@ -5,7 +5,7 @@ public class Register {
 	private String name;
 	private String org;
 	private String email;
-	private int mob;
+	private long mob;
 	private String usnm;
 	private String pass;
 	
@@ -33,11 +33,11 @@ public class Register {
 		this.email = email;
 	}
 
-	public int getMob() {
+	public long getMob() {
 		return mob;
 	}
 
-	public void setMob(int mob) {
+	public void setMob(long mob) {
 		this.mob = mob;
 	}
 

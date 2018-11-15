@@ -15,38 +15,38 @@
 </head>
 <body>
 <nav class="myNav navbar navbar-expand-lg navbar-dark bg-primary">
-	  <a class="navbar-brand" href="signup.html">Login</a>
+	 <!--   <a class="navbar-brand" href="signup.html">Login</a>   
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
-	
+	-->
 	  	<div class="navbar-nav">
-	      <a class="nav-item nav-link" href="signup.html">Register<span class="sr-only">(current)</span></a>
-	      <a class="nav-item nav-link active" href="login.html">Login</a>
+	      <a class="nav-item nav-link" href="Register.jsp">Register<span class="sr-only">(current)</span></a>
+	      <a class="nav-item nav-link active" href="login.jsp">Login</a>
 	    
 	    </div>
 	</nav>
 		<div class="row">
 		<div class="container">
-			<form class="col-sm-6 offset-sm-3">
+			<form action="LoginServlet" class="col-sm-6 offset-sm-3">
 			  <div class="form-group">
 			   <b> <label for="exampleInputEmail1">Username</label></b>
-			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" required="">
+			    <input type="text" class="form-control"name="uno" id="exampleInputUsnml1" aria-describedby="emailHelp" placeholder="Enter username" required="">
 			  </div>
 			   <div class="form-group">
 			    <b><label for="exampleInputPassword1">Password</label></b>
-			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password" onsubmit="" required="">
-			     <span class="psw">Forgot <a href="#">password?</a></span>
-			  </div>
+			    <input type="password" class="form-control" name="pass" id="exampleInputPassword1" placeholder="Enter password" onsubmit="" required="">
+			   <!--    <span class="psw">Forgot <a href="#">password?</a></span>
+			  </div>-->
 
 			  <div class="form-group">
 			    <div class="form-check">
-			      <p>Forgot Password? <a class="login_ref" href="login.html" id="checkuser">Click Here!</a></p>
+			      <p>Forgot Password? <a class="login_ref" href="Logout.jsp" id="checkuser">Click Here!</a></p>
 			    </div>
 			      </div>
-			      <form action="Welcome.jsp" class="inline">
+			     
      <button type="submit" class="btn btn-primary">Login</button>
-</form>
+
 			
 
 			</form>		

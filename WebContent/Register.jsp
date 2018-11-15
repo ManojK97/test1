@@ -27,23 +27,23 @@
 
 	<div class="row">
 		<div class="container card form_container">
-			<form>
+			<form action="RegistrationServlet">
 			  <div class="form-row">
 			  	<div class="form-group col-md-6">
 			    	<label for="name">Name</label>
-			    	<input type="text" class="form-control" id="inputName" placeholder="Enter your name" required>
+			    	<input type="text" class="form-control" id="inputName" name="name" placeholder="Enter your name" required>
 			  	</div>
   			    <div class="form-group col-md-6">
 			      <label for="inputOrg">Organisation</label>
-			      <input type="text" class="form-control" id="inputDOB" placeholder="Enter organisation name">
+			      <input type="text" class="form-control" id="org" name="org" placeholder="Enter organisation name">
 			    </div>
 			    <div class="form-group col-md-6">
 			      <label for="inputEmail4">Email</label>
-			      <input type="email" class="form-control" id="inputEmail" placeholder="example@example.com" required>
+			      <input type="text" class="form-control" id="inputEmail" name="email" placeholder="example@example.com" required>
 			    </div>
 			    <div class="form-group col-md-6">
 			      <label for="inputMobile">Mobile</label>
-			      <input type="tel" class="form-control" id="inputMobile" placeholder="XXXXXXXXXX" required>
+			      <input type="text" class="form-control" id="inputMobile" name="mob" placeholder="XXXXXXXXXX" required>
 			    </div>
 			
 
@@ -52,16 +52,16 @@
 					<div class="input-group-prepend">
 					  <div class="input-group-text">@</div>
 					</div>
-				<input type="text" class="form-control" id="inputGroupUsername" placeholder="Username" required>
+				<input type="text" class="form-control" id="inputGroupUsername" name="usnm" placeholder="Username" required>
 				</div>
 
 			    <div class="form-group col-md-6">
 			      <label for="inputPassword4">Password</label>
-			      <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+			      <input type="password" class="form-control" id="inputPassword"name="pass" placeholder="Password" required>
 			    </div>
 			    <div class="form-group col-md-6">
 			      <label for="inputPassword4">Confirm Password</label>
-			      <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+			      <input type="password" class="form-control" id="inputPassword" name="confpass" placeholder="Password" required>
 			    </div>
 			  </div>
 			  <div class="form-group">
@@ -769,10 +769,13 @@
 </select>
 </div>
 </div>
+<button type="submit" class="btn btn-primary"  >Register </button>
 </form>
 </div>
 </div>
      </div>
-			  <button type="submit" class="btn btn-primary" onclick="">Register </button>
+   
+			<!--   <button type="submit" class="btn btn-primary"  >Register </button>-->
+			  
 </body>
 </html>
