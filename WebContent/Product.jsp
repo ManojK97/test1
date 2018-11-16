@@ -83,7 +83,8 @@
 			//System.out.println(temp);
 			}
 			%>
-			<button type="button" class="btn btn-success" href="Index.jsp">Buy</button>
+			<a  href="Index.jsp"><button type="button" class="btn btn-success">Buy</button></a>
+			
 		</div>
 	</div>
 </div>

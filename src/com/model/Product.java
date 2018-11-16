@@ -1,27 +1,36 @@
 package com.model;
 
-public class Product {
+public class Product 
+{
 
-	private String Prodnm;
-	private int price;
-	public int getPrice() {
+	private String Prodnm;			//variable for product name
+	private int price;				//variable for price of product
+	private int stock;				//variable for stocks remaining
+	
+	public int getPrice()
+	{
 		return price;
 	}
-	public void setPrice(int price) {
+	public void setPrice(int price) 
+	{
 		this.price = price;
 	}
-	private int stock;
 	
-	public String getProdnm() {
+	
+	public String getProdnm() 
+	{
 		return Prodnm;
 	}
-	public void setProdnm(String prodnm) {
+	public void setProdnm(String prodnm) 
+	{
 		Prodnm = prodnm;
 	}
-	public int getStock() {
+	public int getStock()
+	{
 		return stock;
 	}
-	public void setStock(int stock) {
+	public void setStock(int stock)
+	{
 		this.stock = stock;
 	}
 }

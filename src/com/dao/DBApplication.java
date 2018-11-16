@@ -135,7 +135,7 @@ public class DBApplication
 				Product a=new Product();
 				a.setProdnm(rs.getString(1));
 				a.setPrice(rs.getInt(2));
-				a.setPrice(rs.getInt(3));
+				a.setStock(rs.getInt(3));
 				lst.add(a);
 				System.out.println("cnt");
 			}
@@ -159,7 +159,7 @@ public class DBApplication
 			{
 				Product a=new Product();
 				//a.setProdnm(rs.getString(1));
-				a.setStock(rs.getInt(2));
+				a.setStock(rs.getInt(3));
 				lst.add(a);
 			}
 		}
