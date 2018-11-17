@@ -14,6 +14,17 @@
 	<link rel="stylesheet" type="text/css" href="css.css">
 </head>
 <body>
+<script type="text/javascript">
+	function Validate() {
+		var password = document.getElementById("password").value;
+		var confirmPassword = document.getElementById("confirm_password").value;
+		if (password != confirmPassword) {
+			alert("Passwords don't match! Try again.");
+			return false;
+		}
+		return true;
+	}
+</script>
 <nav class="myNav navbar navbar-expand-lg navbar-dark bg-primary">
 	 <!--   <a class="navbar-brand" href="signup.html">Login</a>   
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

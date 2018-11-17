@@ -14,20 +14,22 @@
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
 }
- /*.carousel-caption h3 {
+ .carousel-caption d-none d-md-block h5 {
 font-family:    Garamond;
 font-size:      3em;
 color:          red !important;
+
 }
-/* Description text 
-.carousel-caption p {
+/* Description text */
+.carousel-caption d-none d-md-block p {
 font-family:    Garamond;
 font-size:      2em;
 color:          blue !important;
+ 
 }
-/* Button text 
+/* Button text */
 .carousel-caption .btn {
 font-family:    Garamond;
 font-size:      1em;
 color:          yellow;
-}*/
+}

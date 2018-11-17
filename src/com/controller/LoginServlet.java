@@ -51,6 +51,11 @@ public class LoginServlet extends HttpServlet {
 		{
 			response.sendRedirect("Login.jsp");
 		}
+		
+		
+		/*HttpSession session=request.getSession(true);
+		session.setAttribute("name", s1);
+		response.sendRedirect("Welcome.jsp");*/
 	}
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);

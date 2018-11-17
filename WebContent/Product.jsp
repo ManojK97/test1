@@ -62,7 +62,7 @@
 			Quantity <input type="text" >
 			<%! int a; int finalprod; %>
 			<%
-			if(!session.isNew())
+			if(session.isNew() )
 			{
 			 a=(Integer) session.getAttribute("qty");
 			finalprod=temp-a;

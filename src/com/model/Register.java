@@ -1,6 +1,7 @@
 package com.model;
 
-public class Register {
+public class Register
+{
 	
 	private String name;
 	private String org;
@@ -9,47 +10,58 @@ public class Register {
 	private String usnm;
 	private String pass;
 	
-	public String getName() {
+	public String getName()
+	{
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setName(String name)
+	{
 		this.name = name;
 	}
 
-	public String getOrg() {
+	public String getOrg() 
+	{
 		return org;
 	}
 
-	public void setOrg(String org) {
+	public void setOrg(String org)
+	{
 		this.org = org;
 	}
 
-	public String getEmail() {
+	public String getEmail() 
+	{
 		return email;
 	}
 
-	public void setEmail(String email) {
+	public void setEmail(String email)
+	{
 		this.email = email;
 	}
 
-	public long getMob() {
+	public long getMob() 
+	{
 		return mob;
 	}
 
-	public void setMob(long mob) {
+	public void setMob(long mob) 
+	{
 		this.mob = mob;
 	}
 
-	public String getUsnm() {
+	public String getUsnm() 
+	{
 		return usnm;
 	}
 
-	public void setUsnm(String usnm) {
+	public void setUsnm(String usnm)
+	{
 		this.usnm = usnm;
 	}
 
-	public String getPass() {
+	public String getPass() 
+	{
 		return pass;
 	}
 
